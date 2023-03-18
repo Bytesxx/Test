@@ -1,71 +1,101 @@
+/* Set the background color, margin and padding for the body */
 body {
-    background-color: #111;
-    margin: 0;
-    padding: 0;
-  }
-  
-  .box-title {
-    font-family: 'Orbitron', sans-serif;
-    font-size: 48px;
-    text-align: center;
-    color: white;
-    margin-top: 50px;
-  }
-  
-  .glow-box {
-    width: 85%;
-    height: 840px;
-    margin: auto;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    background-color: #222;
-    box-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 50px #6da8ff, 0 0 100px #6da8ff, 0 0 150px #6da8ff, 0 0 200px #6da8ff;
-    animation: glow 2s infinite alternate;
-    overflow: auto;
-  }
-  
-  .box-content {
-    padding: 50px;
-  }
-  
-  .button-container {
-    display: flex;
-    justify-content: space-between;
-    margin-bottom: 50px;
-  }
-  
-  .button-image {
-    width: 45%;
-    height: 500px;
-    box-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 50px #6da8ff;
-  }
-  
-  .button-image img {
-    width: 100%;
-    height: 100%;
-  }
-  
-  .download-button-container {
-    text-align: center;
-    margin-top: 20px;
-  }
-  
-  .download-button {
-    display: inline-block;
-    padding: 10px 20px;
-    border: 2px solid #6da8ff;
-    border-radius: 5px;
-    font-family: 'Orbitron', sans-serif;
-    font-size: 24px;
-    color: #6da8ff;
-    text-decoration: none;
-    transition: background-color 0.2s, color 0.2s;
-  }
-  
-  .download-button:hover {
-    background-color: #6da8ff;
-    color: #222;
-  }
-  
+  background-color: #111;
+  margin: 0;
+  padding: 0;
+}
+
+/* Style the title of the page */
+.box-title {
+  font-family: 'Orbitron', sans-serif;
+  font-size: 48px;
+  text-align: center;
+  color: white;
+  margin-top: 50px;
+}
+
+/* Style the container for the mod menus */
+.glow-box {
+  width: 85%;
+  height: 840px;
+  margin: auto;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #222;
+  box-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 50px #6da8ff, 0 0 100px #6da8ff, 0 0 150px #6da8ff, 0 0 200px #6da8ff;
+  animation: glow 2s infinite alternate;
+  overflow: auto;
+}
+
+/* Style the content within the mod menus container */
+.box-content {
+  padding: 50px;
+}
+
+/* Style the container for the buttons */
+.button-container {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 50px;
+}
+
+/* Style the container for each button and its image */
+.button-image {
+  width: 45%;
+  height: 500px;
+  box-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 50px #6da8ff;
+}
+
+/* Style the image within each button */
+.button-image img {
+  width: 100%;
+  height: 100%;
+}
+
+/* Style the container for the download button */
+.download-button-container {
+  text-align: center;
+  margin-top: 20px;
+}
+
+/* Style the download button */
+.download-button {
+  display: inline-block;
+  padding: 10px 20px;
+  border: 2px solid #6da8ff;
+  border-radius: 5px;
+  font-family: 'Orbitron', sans-serif;
+  font-size: 24px;
+  color: #6da8ff;
+  text-decoration: none;
+  transition: background-color 0.2s, color 0.2s;
+}
+
+/* Style the hover effect for the download button */
+.download-button:hover {
+  background-color: #6da8ff;
+  color: #222;
+}
+
+/* Style the container for the text label */
+.text-label-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 45%;
+  height: 500px;
+  box-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 50px #6da8ff;
+  background-color: #333;
+  color: #fff;
+  font-family: 'Orbitron', sans-serif;
+  font-size: 36px;
+  text-align: center;
+}
+
+/* Style the hover effect for the text label */
+.text-label-container:hover {
+  background-color: #6da8ff;
+  color: #222;
+}
